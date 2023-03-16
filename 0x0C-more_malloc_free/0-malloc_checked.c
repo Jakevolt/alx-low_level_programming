@@ -13,9 +13,6 @@ void *malloc_checked(unsigned int b)
 
 
 	if (p == NULL)
-	{
-		fprintf(stderr, "malloc failed, exiting...\n");
 		exit(98);
-	}
 	return (p);
 }
